@@ -1,5 +1,5 @@
 def main(a, b):
-   '''a va b o'rtasidagi farqning absolut qiymatini toping. Qaytaring.
+    '''a va b o'rtasidagi farqning absolut qiymatini toping. Qaytaring.
     
      Args:
      a (int): raqam
@@ -8,4 +8,8 @@ def main(a, b):
      Qaytaradi:
      int: natija.
      '''
-    return
+    x = abs(a-b)
+    return x
+a1 = main(25, 52.156)
+
+print(a1)

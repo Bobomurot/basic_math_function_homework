@@ -8,4 +8,6 @@ def main(a, b):
      Qaytaradi:
      int: natija.
      '''
-    return
+    x = a % b
+    y = x ** 3
+    return y

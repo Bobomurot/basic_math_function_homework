@@ -8,4 +8,5 @@ def main(a, b):
      Qaytaradi:
      int: natija.
      '''
-    return
+    x = round(a, b)
+    return x

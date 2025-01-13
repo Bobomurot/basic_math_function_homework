@@ -8,4 +8,6 @@ def main(a, b):
      Qaytaradi:
      int: natija.
      '''
-    return 
+    x = a / b
+    return x
+print(int(main(5, 4)))

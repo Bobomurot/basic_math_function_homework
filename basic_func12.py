@@ -7,4 +7,8 @@ def main(a):
      Qaytaradi:
      float: natija
      '''
-    return
+    b = round(a, 2)
+    return float(b)
+
+x = main(5.265156)
+print(x)
